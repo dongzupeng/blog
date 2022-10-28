@@ -10,7 +10,7 @@ module.exports = {
     themeConfig: {
         outline: false,
         siteTitle: "小垃圾",
-        logo: "../logo.jpg",
+        logo: "./logo.jpg",
         nav: [
             { text: "首页", link: "/" },
             {
