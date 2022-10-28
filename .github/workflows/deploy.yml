@@ -20,7 +20,7 @@ jobs:
       # - name: CreateTag
       #   run git tag -a
       - name: Deploy
-        uses: dongzupeng/blog@v3
+        uses: dongzupeng/blog
         with:
           deploy_key: ${{ secrets.ACTION_TOKEN }}
           publish_dir: docs/.vitepress/dist
