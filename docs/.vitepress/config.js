@@ -1,16 +1,19 @@
 
 module.exports = {
     title: '我的博客',
-    base:'/blog/',
+    base: '/blog/',
     locales: {
         '/': {
             lang: 'zh-CN'
         }
     },
+    head: [
+        ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ],
     themeConfig: {
         outline: false,
         siteTitle: "小垃圾",
-        logo: "./logo.jpg",
+        logo: "/logo.jpg",
         nav: [
             { text: "首页", link: "/" },
             {
@@ -166,7 +169,7 @@ module.exports = {
                                 text: 'TypeScript 泛型',
                                 link: "/advancedArticle/TypeScript/genericity.md",
                             },
-                            
+
 
                         ],
                     },
