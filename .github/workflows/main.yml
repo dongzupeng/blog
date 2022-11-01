@@ -29,13 +29,13 @@ jobs:
         run: yarn install
     
       # 执行打包
-      - name: Build VuePress
-        run: yarn run build
+      - name: Build VitePress
+        run: yarn run docs:build
       
       # 执行部署
       - name: Deploy to Pages
         run: |
-          cd .vitepress/dist 
+          cd  docs/.vitepress/dist
           git init
           git config user.name "dzp"
           git config user.email "${{ secrets.GIT_EMAIL }}"
