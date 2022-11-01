@@ -309,9 +309,9 @@
     --vp-custom-block-info-bg: var(--vp-c-white-soft);
     --vp-custom-block-info-code-bg: var(--vp-c-gray-light-4);
   
-    --vp-custom-block-tip-border: var(--vp-c-green-dimm-1);
-    --vp-custom-block-tip-text: var(--vp-c-green-darker);
-    --vp-custom-block-tip-bg: var(--vp-c-green-dimm-3);
+    --vp-custom-block-tip-border: var(--vp-c-diy-dimm-1);
+    --vp-custom-block-tip-text: var(--vp-c-diy-darker);
+    --vp-custom-block-tip-bg: var(--vp-c-diy-dimm-3);
     --vp-custom-block-tip-code-bg: var(--vp-custom-block-tip-bg);
   
     --vp-custom-block-warning-border: var(--vp-c-yellow-dimm-1);
@@ -335,8 +335,8 @@
     --vp-custom-block-info-bg: var(--vp-c-black-mute);
     --vp-custom-block-info-code-bg: var(--vp-c-gray-dark-4);
   
-    --vp-custom-block-tip-border: var(--vp-c-green-dimm-2);
-    --vp-custom-block-tip-text: var(--vp-c-green-light);
+    --vp-custom-block-tip-border: var(--vp-c-diy-dimm-2);
+    --vp-custom-block-tip-text: var(--vp-c-diy-light);
   
     --vp-custom-block-warning-border: var(--vp-c-yellow-dimm-2);
     --vp-custom-block-warning-text: var(--vp-c-yellow-light);
