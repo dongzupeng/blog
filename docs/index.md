@@ -33,7 +33,7 @@ features:
 #     details: 直接支持按需引入无需配置任何插件。
 ---
 ​<audio id="audio" controls preload="true" autoplay="true" loop>
-      <source id="mp3" src="./周杰伦-晴天.mp3">
+      <source id="mp3" src="/周杰伦-晴天.mp3">
 </audio>
 
 <style>
