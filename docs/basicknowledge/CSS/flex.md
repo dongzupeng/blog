@@ -1,8 +1,9 @@
 # flex布局
 
-## flex布局属性
+:::tip flex布局属性
+:::
 
-### html
+html
 ```html
 <!-- center -->
 <div class="parent-center">
