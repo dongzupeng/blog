@@ -32,7 +32,7 @@ features:
 #     title: 按需引入
 #     details: 直接支持按需引入无需配置任何插件。
 ---
-​<audio id="audio" controls preload="true" autoplay="true" loop>
+<!-- ​<audio id="audio" controls preload="true" autoplay="true" loop>
       <source id="mp3" src="/周杰伦-晴天.mp3">
 </audio>
 
@@ -42,7 +42,7 @@ features:
     bottom:250px;
     right:10px;
    }
-</style>
+</style> -->
 
 
 

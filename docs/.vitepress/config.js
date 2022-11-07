@@ -16,7 +16,7 @@ module.exports = {
         logo: "/logo.jpg",
         nav: [
             { text: "首页", link: "/" },
-            { text: "web Audio", link: "https://dongzupeng.github.io/web-Audio/" },
+            { text: "web Audio", link: "https://dongzupeng.github.io/webAudio/" },
             {
                 text: "小垃圾 的博客",
                 items: [
