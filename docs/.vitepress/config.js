@@ -16,6 +16,7 @@ module.exports = {
         logo: "/logo.jpg",
         nav: [
             { text: "首页", link: "/" },
+            { text: "头文字D系统", link: "https://dongzupeng.github.io/vueAdmin/" },
             { text: "web Audio", link: "https://dongzupeng.github.io/webAudio/" },
             {
                 text: "小垃圾 的博客",
@@ -23,7 +24,6 @@ module.exports = {
                     { text: "掘金", link: "https://juejin.cn/user/2374587965252189" },
                     { text: "Github", link: "https://github.com/dongzupeng" },
                     { text: "Gitee", link: "https://gitee.com/dong-zupeng" },
-                    { text: "语雀", link: "https://www.yuque.com/dongzupeng/whup0q" }
                 ]
             }
         ],
@@ -105,6 +105,10 @@ module.exports = {
                             {
                                 text: '常用技巧',
                                 link: "/basicknowledge/JavaScript/commonSkills.md",
+                            },
+                            {
+                                text: 'scrollTop',
+                                link: "/basicknowledge/JavaScript/getScrollTop.md",
                             }
                         ],
                     },
