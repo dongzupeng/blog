@@ -1,1 +1,62 @@
 # Vue3
+一、组合式API (Composition API)
+::: tip setup
+:::
+1. 新的option, 所有的组合API函数都在此使用, 只在初始化时执行一次
+2. 函数如果返回对象, 对象中的属性或方法, 模板中可以直接使用
+
+
+::: tip ref
+:::
+1. 作用: 定义一个数据的响应式
+2. 语法: const xxx = ref(initValue):
+   + 创建一个包含响应式数据的引用对象
+   + js中操作数据: xxx.value
+   + 模板中操作数据: 不需要.value
+3. ref一般用于创建基本数据类型响应式数据
+```vue
+<template>
+  <h2>{{count}}</h2>
+  <hr>
+  <button @click="update">更新</button>
+</template>
+<script>
+import {
+  ref
+} from 'vue'
+export default {
+
+  /* 在Vue3中依然可以使用data和methods配置, 但建议使用其新语法实现 */
+  // data () {
+  //   return {
+  //     count: 0
+  //   }
+  // },
+  // methods: {
+  //   update () {
+  //     this.count++
+  //   }
+  // }
+
+  /* 使用vue3的composition API */
+  setup () {
+
+    // 定义响应式数据 ref对象
+    const count = ref(1)
+    console.log(count)
+
+    // 更新响应式数据的函数
+    function update () {
+      // alert('update')
+      count.value = count.value + 1
+    }
+
+    return {
+      count,
+      update
+    }
+  }
+}
+</script>
+```
+* 要在模板中使用需要return出去

@@ -27,6 +27,10 @@ module.exports = {
                 ]
             }
         ],
+        footer: {
+            message: '',
+            copyright: '头文字D ©2022 Created by 头文字D',
+        },
         sidebar: [
             {
                 text: '欢迎学习',
