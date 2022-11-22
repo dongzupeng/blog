@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: #ca68e8;
+            border-radius: 10px;
+            margin:100px auto;
+            /* animation: 动画名称 时间 无限 匀速 交替 */
+            animation: change 1s infinite linear alternate;
+        }
+        /* 定义关键帧 */
+        @keyframes change {
+            0%{
+                width: 200px;
+                height: 200px;
+                background-color: #ca68e8;
+                transform: rotate(0deg);
+            }
+            100%{
+                width: 400px;
+                height: 400px;
+                background-color: #61087c;
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

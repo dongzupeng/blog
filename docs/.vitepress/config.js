@@ -90,6 +90,10 @@ module.exports = {
                             {
                                 text: 'grid布局',
                                 link: "/basicknowledge/CSS/grid.md",
+                            },
+                            {
+                                text: '动画',
+                                link: "/basicknowledge/CSS/animation.md",
                             }
                         ],
                     },
