@@ -29,7 +29,7 @@ module.exports = {
         ],
         footer: {
             message: '',
-            copyright: '头文字D ©2022 Created by 头文字D',
+            copyright: `头文字D ©${new Date().getFullYear()} Created by 头文字D`,
         },
         sidebar: [
             {
@@ -75,6 +75,10 @@ module.exports = {
                             {
                                 text: 'embed标签',
                                 link: "/basicknowledge/HTML/mediaLabel-embed.md"
+                            },
+                            {
+                                text: 'canvas标签',
+                                link: "/basicknowledge/HTML/canvas.md"
                             }
                         ],
                     },
@@ -198,6 +202,10 @@ module.exports = {
                             {
                                 text: 'Vue3',
                                 link: "/advancedArticle/Vue/Vue3.md",
+                            },
+                             {
+                                text: 'Vue自定义指令权限控制',
+                                link: "/advancedArticle/Vue/Vue自定义指令权限控制.md",
                             },
                         ],
                     },

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <canvas id="myCanvas"></canvas>
+  </body>
+</html>
+<script>
+  // 获取 Canvas 元素
+  var canvas = document.getElementById("myCanvas");
+  console.log(canvas, 'canvas==>');
+  // 获取 2D 上下文
+  var ctx = canvas.getContext("2d");
+
+  // 在 Canvas 上绘制内容
+  ctx.fillStyle = "red";
+  ctx.fillRect(10, 10, 100, 100);
+
+  // 导出 Canvas 内容为图片
+  var imageData = canvas.toDataURL("image/png");
+
+  // 创建一个新的图片元素
+  var img = new Image();
+  img.src = imageData;
+
+  // 添加到页面中显示
+  document.body.appendChild(img);
+</script>
