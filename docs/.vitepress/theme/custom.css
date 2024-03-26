@@ -211,7 +211,7 @@
   
   :root {
     --vp-code-line-height: 1.7;
-    --vp-code-font-size: 1.2em;
+    --vp-code-font-size: 1rem;
   
     --vp-code-block-color: var(--vp-c-text-dark-1);
     --vp-code-block-bg: #292d3e;

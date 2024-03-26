@@ -79,6 +79,10 @@ module.exports = {
                             {
                                 text: 'canvas标签',
                                 link: "/basicknowledge/HTML/canvas.md"
+                            },
+                            {
+                                text: 'webRTC结合canvas',
+                                link: '/basicknowledge/HTML/webRTC结合canvas.md'
                             }
                         ],
                     },
