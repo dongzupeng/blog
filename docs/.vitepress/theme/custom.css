@@ -60,11 +60,11 @@
     --vp-c-green-dimm-3: rgba(66, 184, 131, 0.05);
 
     /* 自定义颜色 */
-    --vp-c-diy: #1c92ec;
-    --vp-c-diy-light: #0c8bec;
-    --vp-c-diy-lighter: #0c8bec;
-    --vp-c-diy-dark: #0c8bec;
-    --vp-c-diy-darker: #0c8bec;
+    --vp-c-diy: #c367e7;
+    --vp-c-diy-light: #c367e7;
+    --vp-c-diy-lighter: #c367e7;
+    --vp-c-diy-dark: #c367e7;
+    --vp-c-diy-darker: #c367e7;
     --vp-c-diy-dimm-1: rgba(45, 96, 237, 0.5);
     --vp-c-diy-dimm-2: rgba(48, 121, 222, 0.25);
     --vp-c-diy-dimm-3: rgba(32, 95, 220, 0.05);

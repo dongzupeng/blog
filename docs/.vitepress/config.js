@@ -17,6 +17,7 @@ module.exports = {
         nav: [
             { text: "首页", link: "/" },
             { text: "头文字D系统", link: "https://dongzupeng.github.io/vueAdmin/" },
+            { text: "秘密花园", link: "https://dongzupeng.github.io/ant-myapp/" },
             { text: "web Audio", link: "https://dongzupeng.github.io/webAudio/" },
             {
                 text: "小垃圾 的博客",
@@ -140,6 +141,7 @@ module.exports = {
                     {
                         text: "TypeScript",
                         collapsible: true,
+                        collapsed: true,
                         link: "/advancedArticle/TypeScript/index.md",
                         items: [
                             {
@@ -197,6 +199,7 @@ module.exports = {
                     {
                         text: "Vue",
                         collapsible: true,
+                        collapsed: true,
                         link: "/advancedArticle/Vue/index.md",
                         items: [
                             {
@@ -211,6 +214,30 @@ module.exports = {
                                 text: 'Vue自定义指令权限控制',
                                 link: "/advancedArticle/Vue/Vue自定义指令权限控制.md",
                             },
+                        ],
+                    },
+                    {
+                        text: "React",
+                        collapsible: true,
+                        collapsed: true,
+                        link: "/advancedArticle/React/index.md",
+                        items: [
+                            {
+                                text: 'React hooks之useState',
+                                link: "/advancedArticle/React/useState.md",
+                            },
+                            {
+                                text: 'React hooks之useEffect',
+                                link: "/advancedArticle/React/useEffect.md",
+                            },
+                            {
+                                text: 'React hooks之useContext',
+                                link: "/advancedArticle/React/useContext.md",
+                            },
+                            {
+                                text: 'React hooks之useReducer',
+                                link: "/advancedArticle/React/useReducer.md",
+                            }
                         ],
                     },
                 ]
