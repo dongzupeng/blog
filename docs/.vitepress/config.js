@@ -237,6 +237,18 @@ module.exports = {
                             {
                                 text: 'React hooks之useReducer',
                                 link: "/advancedArticle/React/useReducer.md",
+                            },
+                            {
+                                text: 'React hooks之useCallback',
+                                link: "/advancedArticle/React/useCallback.md",
+                            },
+                            {
+                                text: 'React hooks之useMemo',
+                                link: "/advancedArticle/React/useMemo.md",
+                            },
+                            {
+                                text: 'React 高阶组件之React.memo',
+                                link: "/advancedArticle/React/React.memo.md",
                             }
                         ],
                     },
