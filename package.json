@@ -1,5 +1,5 @@
 {
-  "name": "vitepressBlog",
+  "name": "vite-press-blog",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -12,6 +12,7 @@
     "vitepress": "^1.0.0-alpha.21"
   },
   "dependencies": {
+    "oh-my-live2d": "^0.19.3",
     "stylus": "^0.59.0"
   }
 }

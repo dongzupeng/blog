@@ -23,24 +23,19 @@ features:
   - icon: 🎉
     title: vitepress博客
     details: 个人记录...
-  - icon: 🌈
-    title: vueAdmin项目
+    
+  - icon: ❤️
+    title: React项目
+    details: 头文字D的秘密花园
+
+  - icon: 🍃
+    title: vue项目
     details: vue管理系统...
+  
   - icon: 🎵
     title: webAudio可视化学习
     details: 个人学习使用
 ---
-<!-- ​<audio id="audio" controls preload="true" autoplay="true" loop>
-      <source id="mp3" src="/周杰伦-晴天.mp3">
-</audio>
-
-<style>
-   #audio {
-    position:fixed;
-    bottom:250px;
-    right:10px;
-   }
-</style> -->
 
 
 

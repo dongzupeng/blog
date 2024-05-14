@@ -16,8 +16,8 @@ module.exports = {
         logo: "/logo.jpg",
         nav: [
             { text: "首页", link: "/" },
-            { text: "头文字D系统", link: "https://dongzupeng.github.io/vueAdmin/" },
-            { text: "秘密花园", link: "https://dongzupeng.github.io/ant-myapp/" },
+            { text: "Vue项目构建", link: "https://dongzupeng.github.io/vueAdmin/" },
+            { text: "React项目构建", link: "https://dongzupeng.github.io/ant-myapp/" },
             { text: "web Audio", link: "https://dongzupeng.github.io/webAudio/" },
             {
                 text: "小垃圾 的博客",
