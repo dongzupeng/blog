@@ -1,0 +1,1 @@
+import{_ as s,c as a,o,d as l}from"./app.57bd0b6b.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"basicknowledge/HTML/mediaLabel-embed.md"}'),n={name:"basicknowledge/HTML/mediaLabel-embed.md"},p=l("",12),t=[p];function e(c,D,F,r,y,i){return o(),a("div",null,t)}const m=s(n,[["render",e]]);export{d as __pageData,m as default};

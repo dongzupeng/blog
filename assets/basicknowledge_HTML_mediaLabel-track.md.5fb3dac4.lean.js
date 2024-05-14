@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as l,d as o}from"./app.57bd0b6b.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"basicknowledge/HTML/mediaLabel-track.md"}'),n={name:"basicknowledge/HTML/mediaLabel-track.md"},p=o("",5),t=[p];function e(c,r,D,F,y,i){return l(),a("div",null,t)}const _=s(n,[["render",e]]);export{d as __pageData,_ as default};

@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,d as l}from"./app.57bd0b6b.js";const i=JSON.parse('{"title":"super","description":"","frontmatter":{},"headers":[],"relativePath":"advancedArticle/TypeScript/super.md"}'),p={name:"advancedArticle/TypeScript/super.md"},o=l("",2),e=[o];function c(t,r,F,y,D,C){return a(),n("div",null,e)}const d=s(p,[["render",c]]);export{i as __pageData,d as default};
